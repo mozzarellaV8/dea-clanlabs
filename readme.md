@@ -14,11 +14,15 @@ After finding the data in PDFs on the DEA's website, I used Tabula to extract th
 
 The data contained fields for County, City, Address, and Date in month/date/year format. Upon importing the data to R, I used `tidyr` to add a 'State' column; then united values for Address, City, and State in to one column called 'Full Address'. From there would only need to call that column to geocode the addresses with `ggmap`. Also separated the month, date, and year into their own columns so that data could be plotted/looked at in finer increments. 
 
+#### geocoding issues
+
 On `geocode()`: There may be a conflict with this coordinates in this repository - when I reached my google API limit I'd switch the geocode `source` from 'google' to 'dsk' (the wonderful [Data Science Toolkit](http://www.datasciencetoolkit.org/about), which sources from OpenStreetMap. Looking back, would've preferred to maintain consistency.
 
 Another issue I faced, was that with only two states left to geocode, I realized I probably could have written a function to go through the directory of state .csv files and saved a lot of repeated coding. Well, there's a disclaimer above that says "student work". Also, acquired an API key from google but haven't successfully used it yet. Will circle back when taking on the next geocoding task, which will likely be another [DEA dataset - recently released - on federally licensed 'marihuana' locations across the US](http://birrenbach.com/INSTITUTE/foia/dea/). 
 
-(just as I became curious about a marihuana locations dataset, one magically appeared in my inbox thanks to [Data is Plural](https://tinyletter.com/data-is-plural))
+#### coincidentally
+
+On 05.11.216, just as I became curious about a marihuana locations dataset, one magically appeared in my inbox thanks to [Data is Plural](https://tinyletter.com/data-is-plural). So I started cleaning the set a bit [here](https://github.com/mozzarellaV8/dea-mj). 
 
 #### examples 
 
