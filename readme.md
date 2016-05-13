@@ -46,7 +46,7 @@ The most interesting of these to me so far is [Meth Lab Homes](http://methlabhom
 
 For now, the conclusion might be that my interest is in using this data to learn more about the mathematics behind- and applications of- Voronoi tessellations and their corresponding Delaunay triangulations. Thinking of Dr. John Snow's cholera map, it might be interesting to map the sphere of influence of these labs using Voronoi. This might follow the idea that views drug production and addiction as illness rather than crime. But there are many shades of gray to the 'addiction as disease' argument - these will need to be addressed. 
 
-Another thought that comes to mind is the active presence of law enforcement and how that varies from state to state. 
+Another thought that comes to mind is the active presence of law enforcement and how that varies from state to state. Again, there are many shades of grey when thinking of the relationship between citizens and the law.
 
 Further, by compiliing and maintaining such data, I'll be able to add it to a growing file on underground cultures and decentralized economies. 
 
@@ -56,7 +56,7 @@ Further, by compiliing and maintaining such data, I'll be able to add it to a gr
 - [Tabula](http://tabula.technology/) - for extracting csv files from PDFs
 - [Flowing Data: shapefile tutorial](http://flowingdata.com/2014/11/20/mapping-data-in-shapefile-format-with-r/)
 - [Flowing Data: Voronoi + Delaunay tutorial](http://flowingdata.com/2016/04/12/voronoi-diagram-and-delaunay-triangulation-in-r/) - and it's an incredibly quick one. 
-- [Mapping the 1854 London Cholera Outbreak, Dr. John Snow](https://en.wikipedia.org/wiki/John_Snow#/media/File:Snow-cholera-map-1.jpg) - 
+- [Mapping the 1854 London Cholera Outbreak, Dr. John Snow](https://en.wikipedia.org/wiki/John_Snow#/media/File:Snow-cholera-map-1.jpg) - originally encountered in the work of Edward Tufte.
 
 to do:
 
