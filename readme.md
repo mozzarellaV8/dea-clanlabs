@@ -30,7 +30,7 @@ Here are a few exploratory spatial data anaylsis plots drafted so far, with lege
 
 ![Arizona Coordinates](http://pi.mozzarella.website/DEA-EDA/pages/AZ.jpg "Arizona Coordinates")
 
-Arizona clan-lab coordinates mapped with natural resource and water boundaries. The black solid- and red dashed- lines represent the Delaunay triangulation and Voronoi diagram of the coordinates, respectively. 
+Arizona clan-lab coordinates mapped with natural resource and water boundaries. The black solid- and red dashed- lines represent the Delaunay triangulation and Voronoi diagram of the coordinates, respectively. The most dense cluster forms around the greater Phoenix metropolitan area. 
 
 ![Metropolitan Florida](http://pi.mozzarella.website/DEA-EDA/pages/FL.jpg)
 
