@@ -34,7 +34,7 @@ Arizona clan-lab coordinates mapped with natural resource and water boundaries. 
 
 ![Metropolitan Florida](http://pi.mozzarella.website/DEA-EDA/pages/FL.jpg)
 
-The Tampa and Orlanda metropolitan areas of Florida, mapped as a test on black. The opacity of the points is set to 42% when plotted - a very loose, approximate representation of density of laboratories.
+The Tampa and Orlando metropolitan areas of Florida, mapped as a test on black. The opacity of the points is set to 42% when plotted - a very loose, approximate representation of density of laboratories.
 
 #### so, what about these meth labs? 
 
