@@ -18,11 +18,11 @@ The data contained fields for County, City, Address, and Date in month/date/year
 
 On `geocode()`: There may be a conflict with this coordinates in this repository - when I reached my google API limit I'd switch the geocode `source` from 'google' to 'dsk' (the wonderful [Data Science Toolkit](http://www.datasciencetoolkit.org/about), which sources from OpenStreetMap. Looking back, would've preferred to maintain consistency.
 
-Another issue I faced, was that with only two states left to geocode, I realized I probably could have written a function to go through the directory of state .csv files and saved a lot of repeated coding. Well, there's a disclaimer above that says "student work". Also, acquired an API key from google but haven't successfully used it yet. Will circle back when taking on the next geocoding task, which will likely be another [DEA dataset - recently released - on federally licensed 'marihuana' locations across the US](http://birrenbach.com/INSTITUTE/foia/dea/). 
+Another issue I faced, was that with only two states left to geocode, I realized I probably could have written a function to go through the directory of state .csv files and saved a lot of repeated coding. Well, there's a disclaimer above that says "student work". Also, acquired an API key from google but haven't successfully used it yet. Will circle back when taking on the next geocoding task, which will likely be another DEA dataset - recently released - on [federally licensed 'marihuana' locations across the US](http://birrenbach.com/INSTITUTE/foia/dea/). 
 
 #### coincidentally
 
-On 05.11.216, just as I became curious about a marihuana locations dataset, one magically appeared in my inbox thanks to [Data is Plural](https://tinyletter.com/data-is-plural). So I started cleaning the set a bit [here](https://github.com/mozzarellaV8/dea-mj). 
+On 05.11.2016: just as I became curious about a marihuana locations dataset, one magically appeared in my inbox thanks to [Data is Plural](https://tinyletter.com/data-is-plural). So I started cleaning the set a bit here: [DEA list of organizations licensed to handle marijuana](https://github.com/mozzarellaV8/dea-mj). 
 
 #### examples 
 
@@ -31,6 +31,10 @@ Here are a few exploratory spatial data anaylsis plots drafted so far, with lege
 ![Arizona Coordinates](http://pi.mozzarella.website/DEA-EDA/pages/AZ.jpg "Arizona Coordinates")
 
 Arizona clan-lab coordinates mapped with natural resource and water boundaries. Lines represent the Delaunay triangulation and Voronoi diagram of the coordinates. 
+
+![Metropolitan Florida](http://pi.mozzarella.website/DEA-EDA/pages/FL.jpg)
+
+The Tampa and Orlanda metropolitan areas of Florida, mapped as a test on black. The opacity of the points is set to 42% when plotted - a very loose, approximate representation of density of laboratories.
 
 #### so what about these meth labs? 
 
