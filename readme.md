@@ -28,7 +28,9 @@ On 05.11.2016: just as I became curious about a marihuana locations dataset, one
 
 Here are a few exploratory spatial data anaylsis plots drafted so far - just for a quick sense of things to do with the the data. Legends text were quickly added later in InDesign.
 
-![Arizona Coordinates](http://pi.mozzarella.website/DEA-EDA/pages/AZ.jpg "Arizona Coordinates")
+![Arizona Coordinates](http://pi.mozzarella.website/DEA-EDA/pages/AZ-H.jpg "Arizona Coordinates")
+
+![AZ-Phoenix Coordinates](http://pi.mozzarella.website/DEA-EDA/pages/AZ-PHX.jpg "Phoenix Coordinates")
 
 Arizona clan-lab coordinates mapped with natural resource and water boundaries. The black solid- and red dashed- lines represent the Delaunay triangulation and Voronoi diagram of the coordinates, respectively. The most dense cluster forms around the greater Phoenix metropolitan area. 
 
