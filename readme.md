@@ -1,7 +1,7 @@
 # DEA - EDA 
 ###### Mapping National Clandestine Laboratory Register Coordinates
 
-**disclaimer:** R student work
+_disclaimer:_ R student work
 
 #### narrative
 
