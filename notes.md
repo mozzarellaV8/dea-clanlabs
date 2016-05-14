@@ -44,9 +44,13 @@ Further, by compiliing and maintaining such data, I'll be able to add it to a gr
 - [Flowing Data: Voronoi + Delaunay tutorial](http://flowingdata.com/2016/04/12/voronoi-diagram-and-delaunay-triangulation-in-r/) - and it's an incredibly quick one. 
 - [Mapping the 1854 London Cholera Outbreak, Dr. John Snow](https://en.wikipedia.org/wiki/John_Snow#/media/File:Snow-cholera-map-1.jpg) - originally encountered in the work of Edward Tufte.
 
-to do:
+to look deeper into:
+
+- [Publications: Tamara Munzner](http://www.cs.ubc.ca/~tmm/papers.html)
+- [Engineering Statistics Handbook](http://www.itl.nist.gov/div898/handbook/eda/section3/eda33.htm) - sections on EDA
+
+reference:
 
 - [rgdal](https://cran.r-project.org/web/packages/rgdal/rgdal.pdf) - OGR, ShapePolys, accuracy
 - [Spatial data in R: Using R as a GIS](https://pakillo.github.io/R-GIS-tutorial/) - PROJ.4 and CRS, googleVis, general workflow
 - [Spatial Reference](http://www.spatialreference.org/) - reference for PROJ.4, more
-- [Introduction to visualising spatial data in R](https://cran.r-project.org/doc/contrib/intro-spatial-rl.pdf) - structure of spatial data in R
