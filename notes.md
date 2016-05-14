@@ -12,7 +12,9 @@ I have no idea how I ended up [here](http://www.dea.gov/clan-lab/clan-lab.shtml)
 
 ![Metropolitan Florida](http://pi.mozzarella.website/DEA-EDA/pages/FL.jpg)
 
-Metropolitan subsection of Florida, going from Tampa to Orlando. The opacity of the points is set to 42% when plotted - a very loose, approximate representation of density of laboratories. The choice of black for background was to experiment with color as there will be more plots to come. Excluded city names and other information commonly found on maps as an abstraction - to see if there might be something to be learned from the spatial points and their arrangements. Was loosely thinking of trying to approach the information from a different point of view - in hopes that biases would be reduced. 
+Metropolitan subsection of Florida, going from Tampa to Orlando. 
+
+The opacity of the points is set to 42% when plotted - a very loose, approximate representation of density of laboratories. The choice of black for background was to experiment with color as there will be more plots to come. Excluded city names and other information commonly found on maps as an abstraction - to see if there might be something to be learned from the spatial points and their arrangements. Was loosely thinking of trying to approach the information from a different point of view - in hopes that biases would be reduced. 
 
 #### so, what about these meth labs? 
 
