@@ -7,6 +7,7 @@ _R student work_
 - [notes](dea-clanlabs/notes.md) - process and extended thoughts/commmentary on data
 - [states](dea-clanlabs/states/) - R scripts for plotting coordinates
 - [data](dea-clanlabs/data) - CSVs of lab coordinates by state 
+- [sources and resources](https://github.com/mozzarellaV8/dea-clanlabs#sources-and-resources)
 
 #### narrative
 
