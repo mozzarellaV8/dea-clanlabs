@@ -12,9 +12,21 @@ I have no idea how I ended up [here](http://www.dea.gov/clan-lab/clan-lab.shtml)
 
 ![Metropolitan Florida](http://pi.mozzarella.website/DEA-EDA/pages/FL.jpg)
 
-Metropolitan subsection of Florida, going from Tampa to Orlando. The opacity of the points is set to 42% when plotted - a very loose, approximate representation of density of laboratories.
+Metropolitan subsection of Florida, going from Tampa to Orlando. The opacity of the points is set to 42% when plotted - a very loose, approximate representation of density of laboratories. The choice of black for background was to experiment with color as there will be more plots to come. Excluded city names and other information commonly found on maps as an abstraction - to see if there might be something to be learned from the spatial points and their arrangements. Was loosely thinking of trying to approach the information from a different point of view - in hopes that biases would be reduced. 
 
-#### methods used and lessons learned (& learning)
+#### so, what about these meth labs? 
+
+Apparently there is an environmental impact from the waste produced in the manufacturing process, which often is dumped illegally in fields or water sources. I've included those in my maps. Highways are being considered, as I imagine it might be possible to get an idea of how these drugs circulate after being produced. Another thought that came to mind was to look at housing price data near these sites - but a cursory search revealed a small industry devoted to this...
+
+The most interesting of these to me so far is [Meth Lab Homes](http://methlabhomes.com/), which features news and resources but also receives comments from those affected by or addicted to methamphetamine. 
+
+For now, the conclusion might be that my interest is in using this data to learn more about the mathematics behind- and applications of- Voronoi tessellations and their corresponding Delaunay triangulations. Thinking of Dr. John Snow's cholera map, it might be interesting to map the sphere of influence of these labs using Voronoi. This might follow the idea that views drug production and addiction as illness rather than crime. But there are many shades of gray to the 'addiction as disease' argument - these will need to be addressed. 
+
+Another thought that comes to mind is the active presence of law enforcement and how that varies from state to state. Again, there are many shades of grey when thinking of the relationship between citizens and the law.
+
+Further, by compiliing and maintaining such data, I'll be able to add it to a growing file on underground cultures and decentralized economies. 
+
+#### methods used and lessons learning
 
 After finding the data in PDFs on the DEA's website, I used Tabula to extract them as CSVs. For some of the longer PDFs I had to go back to Tabula a couple of times because of errant columns.  While this could have been done in `dplyr`, the ease of using Tabula saved time and kept the process consistent for extracting data on each state. Learned not to blindly use automated functions; and that a quick scan of longer PDFs would've saved even more time - rather than going back and re-extracting the same data 2, 3, or more times. 
 
@@ -30,17 +42,6 @@ Another issue I faced - was that with only two states left to geocode, I realize
 
 On 05.11.2016: just as I became curious about a marihuana locations dataset, one magically appeared in my inbox thanks to [Data is Plural](https://tinyletter.com/data-is-plural). So I started cleaning the set a bit here: [DEA list of organizations licensed to handle marijuana](https://github.com/mozzarellaV8/dea-mj). 
 
-#### so, what about these meth labs? 
-
-Apparently there is an environmental impact from the waste produced in the manufacturing process, which often is dumped illegally in fields or water sources. I've included those in my maps. Highways are being considered, as I imagine it might be possible to get an idea of how these drugs circulate after being produced. Another thought that came to mind was to look at housing price data near these sites - but a cursory search revealed a small industry devoted to this...
-
-The most interesting of these to me so far is [Meth Lab Homes](http://methlabhomes.com/), which features news and resources but also receives comments from those affected by or addicted to methamphetamine. 
-
-For now, the conclusion might be that my interest is in using this data to learn more about the mathematics behind- and applications of- Voronoi tessellations and their corresponding Delaunay triangulations. Thinking of Dr. John Snow's cholera map, it might be interesting to map the sphere of influence of these labs using Voronoi. This might follow the idea that views drug production and addiction as illness rather than crime. But there are many shades of gray to the 'addiction as disease' argument - these will need to be addressed. 
-
-Another thought that comes to mind is the active presence of law enforcement and how that varies from state to state. Again, there are many shades of grey when thinking of the relationship between citizens and the law.
-
-Further, by compiliing and maintaining such data, I'll be able to add it to a growing file on underground cultures and decentralized economies. 
 
 #### sources and resources
 
