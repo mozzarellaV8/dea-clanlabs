@@ -7,25 +7,17 @@ _R student work_
 - [notes](https://github.com/mozzarellaV8/dea-clanlabs/blob/master/notes.md) - process and extended thoughts/commmentary on data
 - [states](https://github.com/mozzarellaV8/dea-clanlabs/tree/master/states) - R scripts for plotting coordinates
 - [data](https://github.com/mozzarellaV8/dea-clanlabs/tree/master/data) - CSVs of lab coordinates by state 
-- [sources and resources](https://github.com/mozzarellaV8/dea-clanlabs#sources-and-resources)
+- [sources](https://github.com/mozzarellaV8/dea-clanlabs#sources-and-resources) - and resources
 
 #### narrative
 
 I have no idea how I ended up [here](http://www.dea.gov/clan-lab/clan-lab.shtml). 
 
-#### examples 
-
-A few exploratory spatial data anaylsis plots drafted - just for a quick sense of things to do with the the data. Legends and text were quickly added later in InDesign.
-
-![Arizona Coordinates](http://pi.mozzarella.website/DEA-EDA/pages/AZ-H.jpg "Arizona Coordinates")
-
-![AZ-Phoenix Coordinates](http://pi.mozzarella.website/DEA-EDA/pages/AZ-PHX.jpg "Phoenix Coordinates")
-
-Arizona clan-lab coordinates mapped with natural resource and water boundaries. The black solid- and red dashed- lines represent the Delaunay triangulation and Voronoi diagram of the coordinates, respectively. The most dense cluster forms around the greater Phoenix metropolitan area. 
+#### example
 
 ![Metropolitan Florida](http://pi.mozzarella.website/DEA-EDA/pages/FL.jpg)
 
-The Tampa and Orlando metropolitan areas of Florida, mapped on black as a test. The opacity of the points is set to 42% when plotted - a very loose, approximate representation of density of laboratories.
+The Tampa and Orlando metropolitan areas of Florida, mapped as a test on black background. The opacity of the points is set to 42% when plotted - a very loose, approximate representation of density of laboratories.
 
 #### sources and resources
 
