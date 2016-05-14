@@ -8,6 +8,12 @@ _R student work_
 
 I have no idea how I ended up [here](http://www.dea.gov/clan-lab/clan-lab.shtml). 
 
+#### plot example
+
+![Metropolitan Florida](http://pi.mozzarella.website/DEA-EDA/pages/FL.jpg)
+
+Metropolitan subsection of Florida, going from Tampa to Orlando. The opacity of the points is set to 42% when plotted - a very loose, approximate representation of density of laboratories.
+
 #### methods used and lessons learned (& learning)
 
 After finding the data in PDFs on the DEA's website, I used Tabula to extract them as CSVs. For some of the longer PDFs I had to go back to Tabula a couple of times because of errant columns.  While this could have been done in `dplyr`, the ease of using Tabula saved time and kept the process consistent for extracting data on each state. Learned not to blindly use automated functions; and that a quick scan of longer PDFs would've saved even more time - rather than going back and re-extracting the same data 2, 3, or more times. 
