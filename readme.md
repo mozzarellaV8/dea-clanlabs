@@ -2,11 +2,11 @@
 
 #### Mapping National Clandestine Laboratory Register Coordinates
 
-_R student work_
+_R student work in progress_
 
 - [notes](https://github.com/mozzarellaV8/dea-clanlabs/blob/master/notes.md) - process and extended thoughts/commmentary on data
 - [states](https://github.com/mozzarellaV8/dea-clanlabs/tree/master/states) - R scripts for plotting coordinates
-- [data](https://github.com/mozzarellaV8/dea-clanlabs/tree/master/data) - CSVs of lab coordinates by state 
+- [data](https://github.com/mozzarellaV8/dea-clanlabs/tree/master/data) - CSV of entire United States coordinates and individual CSVs of lab coordinates by state
 - [sources](https://github.com/mozzarellaV8/dea-clanlabs#sources-and-resources) - and resources
 
 #### narrative
