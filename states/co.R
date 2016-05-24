@@ -73,12 +73,13 @@ plot(0, 0, asp = 1, type = "n", bty = "n",
      xlab = "", ylab = "")
 
 lines(admin, lty = 1, lwd = 0.330, col = "#B8B8B8") # grey82
-lines(natural, lty = 1, lwd = 1.0, col = "peachpuff4") # sienna
+lines(natural, lty = 1, lwd = 1.0, col = "peachpuff4")
 lines(water, lty = 1, lwd = 1.0, col = "#00688B") # deepskyblue4
 
 points(co$lon, co$lat, pch = 16, col = "#CD262680", cex = 2.8) # firebrick3
 points(co$lon, co$lat, pch = 1, col = "#00000070", cex = 2.8) # grey24
 
+# plot 3 times
 plot(coTess, wlines = "triang", wpoints = "none", number = FALSE, add = TRUE,
      lty = 1, lwd = 0.6, col = "#FFFFFF")
 plot(coTess, wlines = "tess", wpoints = "none", number = FALSE, add = TRUE,
